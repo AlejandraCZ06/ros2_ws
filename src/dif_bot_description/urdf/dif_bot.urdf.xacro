@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="dif_bot">
 
-  <!-- Importar archivo de propiedades -->
+  <!-- Importar archivo de propiedades (debe ir primero) -->
   <xacro:include filename="$(find dif_bot_description)/urdf/dif_bot_properties.xacro"/>
 
-  <!-- Materiales de colores -->
+  <!-- Materiales -->
   <material name="blue">
     <color rgba="0.2 0.2 0.8 1.0"/>
   </material>
