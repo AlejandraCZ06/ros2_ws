@@ -1,0 +1,1 @@
+/home/alejandra/ros2_ws/build/dif_bot_description/ament_cmake_core/dif_bot_descriptionConfig-version.cmake

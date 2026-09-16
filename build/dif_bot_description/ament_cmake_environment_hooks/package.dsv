@@ -1,0 +1,4 @@
+source;share/dif_bot_description/local_setup.bash
+source;share/dif_bot_description/local_setup.dsv
+source;share/dif_bot_description/local_setup.sh
+source;share/dif_bot_description/local_setup.zsh
