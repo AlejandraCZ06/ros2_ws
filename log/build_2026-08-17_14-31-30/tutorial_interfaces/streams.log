@@ -1,0 +1,346 @@
+[0.024s] Invoking command in '/home/alejandra/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandra/ros2_ws/install/mi_primer_paquete:/opt/ros/jazzy /usr/bin/cmake --build /home/alejandra/ros2_ws/build/tutorial_interfaces -- -j12 -l12
+[0.194s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.455s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.838s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.865s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.897s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.924s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.032s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.035s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.453s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.953s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.002s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.043s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.056s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.685s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.989s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.092s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.097s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.647s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.760s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.784s] -- Added test 'lint_cmake' to check CMake code style
+[3.788s] -- Added test 'xmllint' to check XML markup files
+[3.818s] -- Configuring done (3.7s)
+[3.998s] -- Generating done (0.1s)
+[4.024s] -- Build files have been written to: /home/alejandra/ros2_ws/build/tutorial_interfaces
+[4.095s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.097s] [  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[4.118s] [  3%] Built target ament_cmake_python_copy_tutorial_interfaces
+[4.527s] [  3%] Built target tutorial_interfaces__rosidl_generator_type_description
+[4.544s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.548s] running egg_info
+[4.571s] [  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.576s] writing tutorial_interfaces.egg-info/PKG-INFO
+[4.576s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[4.576s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[4.649s] [  7%] Built target tutorial_interfaces__rs
+[4.676s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[4.677s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[4.719s] [  7%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[5.206s] [  7%] Built target tutorial_interfaces__cpp
+[5.310s] [  9%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__description.c.o[0m
+[5.310s] [ 10%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/hypotenuse__type_support.c.o[0m
+[5.311s] [ 14%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o[0m
+[5.312s] [ 14%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/hypotenuse__functions.c.o[0m
+[5.312s] [ 16%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[5.320s] [ 18%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/action/detail/fibonacci__functions.c.o[0m
+[5.321s] [ 20%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/action/detail/fibonacci__type_support.c.o[0m
+[5.322s] [ 21%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/hypotenuse__description.c.o[0m
+[5.326s] [ 23%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/action/detail/fibonacci__description.c.o[0m
+[5.608s] [ 25%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[5.883s] [ 25%] Built target tutorial_interfaces__rosidl_generator_c
+[5.898s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.907s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.907s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.918s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.936s] [ 34%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.937s] [ 36%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.458s] [ 38%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[6.461s] [ 40%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/hypotenuse__type_support.cpp.o[0m
+[6.462s] [ 41%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/action/fibonacci__type_support.cpp.o[0m
+[6.478s] [ 43%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[6.478s] [ 45%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/action/fibonacci__type_support.cpp.o[0m
+[6.481s] [ 47%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/hypotenuse__type_support.cpp.o[0m
+[6.653s] [ 49%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[6.658s] [ 50%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o[0m
+[6.658s] [ 52%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/hypotenuse__type_support.cpp.o[0m
+[6.659s] [ 54%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/action/detail/fibonacci__type_support.cpp.o[0m
+[6.675s] [ 56%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/hypotenuse__type_support.c.o[0m
+[6.676s] [ 58%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[6.677s] [ 60%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/action/detail/fibonacci__type_support.c.o[0m
+[6.843s] [ 61%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[7.012s] [ 61%] Built target tutorial_interfaces__rosidl_typesupport_c
+[7.088s] [ 63%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/hypotenuse__type_support.cpp.o[0m
+[7.088s] [ 65%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[7.094s] [ 67%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[7.179s] [ 67%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[7.196s] [ 69%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[7.205s] [ 70%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/action/detail/fibonacci__type_support_c.cpp.o[0m
+[7.212s] [ 72%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/hypotenuse__type_support_c.cpp.o[0m
+[8.023s] [ 74%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[8.158s] [ 76%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[8.163s] [ 78%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[8.348s] [ 78%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[8.351s] [ 78%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[8.381s] [ 78%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[8.855s] [ 80%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.240s] [ 80%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[9.266s] [ 80%] Built target tutorial_interfaces
+[9.288s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.254s] [ 81%] Built target tutorial_interfaces__py
+[10.291s] [ 83%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o[0m
+[10.294s] [ 85%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/action/_fibonacci_s.c.o[0m
+[10.298s] [ 87%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_hypotenuse_s.c.o[0m
+[10.632s] [ 89%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_py.so[0m
+[10.854s] [ 89%] Built target tutorial_interfaces__rosidl_generator_py
+[10.885s] [ 90%] [32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[10.886s] [ 92%] [32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.890s] [ 94%] [32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.050s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[11.050s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so[0m
+[11.051s] [100%] [32m[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[11.215s] [100%] Built target tutorial_interfaces_s__rosidl_typesupport_c
+[11.217s] [100%] Built target tutorial_interfaces_s__rosidl_typesupport_introspection_c
+[11.333s] [100%] Built target tutorial_interfaces_s__rosidl_typesupport_fastrtps_c
+[11.347s] Invoked command in '/home/alejandra/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandra/ros2_ws/install/mi_primer_paquete:/opt/ros/jazzy /usr/bin/cmake --build /home/alejandra/ros2_ws/build/tutorial_interfaces -- -j12 -l12
+[11.362s] Invoking command in '/home/alejandra/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandra/ros2_ws/install/mi_primer_paquete:/opt/ros/jazzy /usr/bin/cmake --install /home/alejandra/ros2_ws/build/tutorial_interfaces
+[11.374s] -- Install configuration: ""
+[11.374s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[11.376s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.json
+[11.377s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/Hypotenuse.json
+[11.378s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/action/Fibonacci.json
+[11.379s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[11.379s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action
+[11.380s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/fibonacci.h
+[11.380s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail
+[11.381s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__type_support.h
+[11.381s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__struct.h
+[11.381s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__description.c
+[11.382s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__functions.c
+[11.383s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__type_support.c
+[11.383s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__functions.h
+[11.384s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[11.384s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/hypotenuse.h
+[11.384s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[11.385s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__functions.c
+[11.386s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__functions.h
+[11.386s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__description.c
+[11.386s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__type_support.h
+[11.386s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__type_support.c
+[11.387s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__struct.h
+[11.387s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[11.387s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[11.387s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[11.387s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__description.c
+[11.387s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c
+[11.388s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[11.388s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h
+[11.388s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h
+[11.389s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h
+[11.389s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h
+[11.389s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[11.390s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[11.390s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[11.391s] -- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+[11.391s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[11.391s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action
+[11.392s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail
+[11.392s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[11.392s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[11.392s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[11.392s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__rosidl_typesupport_fastrtps_c.h
+[11.393s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[11.393s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[11.393s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[11.393s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.394s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[11.395s] -- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[11.396s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[11.397s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action
+[11.397s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/fibonacci.hpp
+[11.397s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail
+[11.397s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__type_support.hpp
+[11.398s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__traits.hpp
+[11.398s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__builder.hpp
+[11.399s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__struct.hpp
+[11.399s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[11.399s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[11.399s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__struct.hpp
+[11.400s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__builder.hpp
+[11.400s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__traits.hpp
+[11.400s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__type_support.hpp
+[11.400s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/hypotenuse.hpp
+[11.401s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[11.401s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp
+[11.401s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[11.401s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp
+[11.402s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp
+[11.402s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.hpp
+[11.402s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp
+[11.403s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[11.403s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[11.403s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action
+[11.403s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail
+[11.404s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[11.404s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/dds_fastrtps
+[11.404s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[11.404s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[11.404s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__rosidl_typesupport_fastrtps_cpp.hpp
+[11.404s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps
+[11.405s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[11.405s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.405s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[11.405s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[11.406s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps
+[11.407s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[11.408s] -- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.408s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[11.408s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action
+[11.409s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail
+[11.409s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[11.409s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__type_support.c
+[11.409s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[11.410s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[11.410s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__rosidl_typesupport_introspection_c.h
+[11.410s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__type_support.c
+[11.410s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[11.411s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[11.411s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[11.411s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[11.411s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.413s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[11.414s] -- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[11.415s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[11.415s] -- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+[11.415s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[11.416s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action
+[11.416s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail
+[11.416s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__type_support.cpp
+[11.416s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[11.416s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[11.417s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[11.418s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__rosidl_typesupport_introspection_cpp.hpp
+[11.418s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__type_support.cpp
+[11.418s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[11.418s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[11.419s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[11.419s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp
+[11.420s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[11.422s] -- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[11.423s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[11.424s] -- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[11.425s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[11.425s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[11.425s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info
+[11.425s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[11.425s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[11.425s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[11.426s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[11.426s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces
+[11.426s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.427s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/action
+[11.427s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/action/_fibonacci.py
+[11.427s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/action/__init__.py
+[11.428s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/action/_fibonacci_s.c
+[11.428s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[11.428s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv
+[11.428s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_hypotenuse.py
+[11.429s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/__init__.py
+[11.429s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_hypotenuse_s.c
+[11.429s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg
+[11.429s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num_s.c
+[11.430s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num.py
+[11.430s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/__init__.py
+[11.430s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/__init__.py
+[11.430s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[11.430s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so
+[11.430s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[11.431s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so
+[11.530s] Listing '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces'...
+[11.531s] Compiling '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/__init__.py'...
+[11.531s] Listing '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/action'...
+[11.531s] Compiling '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/action/__init__.py'...
+[11.531s] Compiling '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/action/_fibonacci.py'...
+[11.531s] Listing '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg'...
+[11.531s] Compiling '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/__init__.py'...
+[11.531s] Compiling '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num.py'...
+[11.531s] Listing '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv'...
+[11.531s] Compiling '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/__init__.py'...
+[11.531s] Compiling '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_hypotenuse.py'...
+[11.543s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[11.544s] -- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[11.544s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so
+[11.544s] -- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[11.545s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so
+[11.545s] -- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so" to ""
+[11.548s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+[11.548s] -- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""
+[11.549s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/rust_packages/tutorial_interfaces
+[11.549s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust
+[11.550s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/build.rs
+[11.550s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/Cargo.toml
+[11.550s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src
+[11.550s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/action
+[11.551s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/action/rmw.rs
+[11.551s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/srv.rs
+[11.551s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/msg.rs
+[11.552s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/srv
+[11.552s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/srv/rmw.rs
+[11.553s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/lib.rs
+[11.553s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/msg
+[11.553s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/msg/rmw.rs
+[11.554s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/action.rs
+[11.555s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[11.555s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/Hypotenuse.idl
+[11.555s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/action/Fibonacci.idl
+[11.556s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[11.556s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/Hypotenuse.srv
+[11.556s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/action/Fibonacci.action
+[11.556s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[11.557s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[11.557s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[11.557s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[11.557s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[11.557s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[11.557s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[11.557s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[11.557s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[11.557s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[11.557s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[11.557s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[11.558s] -- Old export file "/home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake].
+[11.558s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake
+[11.558s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[11.558s] -- Old export file "/home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[11.558s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[11.559s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.559s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake
+[11.560s] -- Old export file "/home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[11.560s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.560s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.560s] -- Old export file "/home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[11.560s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[11.560s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.560s] -- Old export file "/home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake].
+[11.561s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[11.561s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[11.561s] -- Old export file "/home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[11.561s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[11.561s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.561s] -- Old export file "/home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].
+[11.562s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[11.562s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[11.563s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake
+[11.563s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[11.563s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[11.564s] -- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.564s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.564s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[11.564s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[11.564s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.564s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.565s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[11.565s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[11.565s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[11.565s] -- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[11.568s] Invoked command in '/home/alejandra/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandra/ros2_ws/install/mi_primer_paquete:/opt/ros/jazzy /usr/bin/cmake --install /home/alejandra/ros2_ws/build/tutorial_interfaces

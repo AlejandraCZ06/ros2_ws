@@ -1,0 +1,21 @@
+[2.439s] Invoking command in '/home/alejandra/ros2_ws/src/turtlesim_control': AMENT_PREFIX_PATH=/home/alejandra/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alejandra/ros2_ws/install/tutorial_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/alejandra/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alejandra/ros2_ws/build/turtlesim_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandra/ros2_ws/install/turtlesim_control/lib/python3.12/site-packages:/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlesim_control build --build-base /home/alejandra/ros2_ws/build/turtlesim_control/build install --record /home/alejandra/ros2_ws/build/turtlesim_control/install.log --install-scripts $base/lib/turtlesim_control --single-version-externally-managed install_data
+[2.781s] running egg_info
+[2.803s] writing ../../build/turtlesim_control/turtlesim_control.egg-info/PKG-INFO
+[2.807s] writing dependency_links to ../../build/turtlesim_control/turtlesim_control.egg-info/dependency_links.txt
+[2.807s] writing entry points to ../../build/turtlesim_control/turtlesim_control.egg-info/entry_points.txt
+[2.807s] writing requirements to ../../build/turtlesim_control/turtlesim_control.egg-info/requires.txt
+[2.807s] writing top-level names to ../../build/turtlesim_control/turtlesim_control.egg-info/top_level.txt
+[2.858s] reading manifest file '../../build/turtlesim_control/turtlesim_control.egg-info/SOURCES.txt'
+[2.861s] writing manifest file '../../build/turtlesim_control/turtlesim_control.egg-info/SOURCES.txt'
+[2.861s] running build
+[2.861s] running build_py
+[2.861s] running install
+[2.868s] running install_lib
+[2.895s] running install_data
+[2.895s] running install_egg_info
+[2.919s] removing '/home/alejandra/ros2_ws/install/turtlesim_control/lib/python3.12/site-packages/turtlesim_control-0.0.0-py3.12.egg-info' (and everything under it)
+[2.921s] Copying ../../build/turtlesim_control/turtlesim_control.egg-info to /home/alejandra/ros2_ws/install/turtlesim_control/lib/python3.12/site-packages/turtlesim_control-0.0.0-py3.12.egg-info
+[2.924s] running install_scripts
+[3.148s] Installing controller script to /home/alejandra/ros2_ws/install/turtlesim_control/lib/turtlesim_control
+[3.150s] writing list of installed files to '/home/alejandra/ros2_ws/build/turtlesim_control/install.log'
+[3.228s] Invoked command in '/home/alejandra/ros2_ws/src/turtlesim_control' returned '0': AMENT_PREFIX_PATH=/home/alejandra/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alejandra/ros2_ws/install/tutorial_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/alejandra/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alejandra/ros2_ws/build/turtlesim_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandra/ros2_ws/install/turtlesim_control/lib/python3.12/site-packages:/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlesim_control build --build-base /home/alejandra/ros2_ws/build/turtlesim_control/build install --record /home/alejandra/ros2_ws/build/turtlesim_control/install.log --install-scripts $base/lib/turtlesim_control --single-version-externally-managed install_data

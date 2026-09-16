@@ -1,0 +1,2 @@
+[console_scripts]
+server = py_action.fibonacci_action_server:main

@@ -1,0 +1,19 @@
+[1.074s] Invoking command in '/home/alejandra/ros2_ws/src/my_robot_launch': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alejandra/ros2_ws/build/my_robot_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandra/ros2_ws/install/my_robot_launch/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_launch build --build-base /home/alejandra/ros2_ws/build/my_robot_launch/build install --record /home/alejandra/ros2_ws/build/my_robot_launch/install.log --install-scripts $base/lib/my_robot_launch --single-version-externally-managed install_data
+[1.420s] running egg_info
+[1.439s] writing ../../build/my_robot_launch/my_robot_launch.egg-info/PKG-INFO
+[1.440s] writing dependency_links to ../../build/my_robot_launch/my_robot_launch.egg-info/dependency_links.txt
+[1.440s] writing requirements to ../../build/my_robot_launch/my_robot_launch.egg-info/requires.txt
+[1.441s] writing top-level names to ../../build/my_robot_launch/my_robot_launch.egg-info/top_level.txt
+[1.477s] reading manifest file '../../build/my_robot_launch/my_robot_launch.egg-info/SOURCES.txt'
+[1.478s] writing manifest file '../../build/my_robot_launch/my_robot_launch.egg-info/SOURCES.txt'
+[1.478s] running build
+[1.478s] running build_py
+[1.479s] running install
+[1.486s] running install_lib
+[1.508s] running install_data
+[1.509s] running install_egg_info
+[1.533s] removing '/home/alejandra/ros2_ws/install/my_robot_launch/lib/python3.12/site-packages/my_robot_launch-0.0.0-py3.12.egg-info' (and everything under it)
+[1.533s] Copying ../../build/my_robot_launch/my_robot_launch.egg-info to /home/alejandra/ros2_ws/install/my_robot_launch/lib/python3.12/site-packages/my_robot_launch-0.0.0-py3.12.egg-info
+[1.536s] running install_scripts
+[1.692s] writing list of installed files to '/home/alejandra/ros2_ws/build/my_robot_launch/install.log'
+[1.735s] Invoked command in '/home/alejandra/ros2_ws/src/my_robot_launch' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alejandra/ros2_ws/build/my_robot_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandra/ros2_ws/install/my_robot_launch/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_launch build --build-base /home/alejandra/ros2_ws/build/my_robot_launch/build install --record /home/alejandra/ros2_ws/build/my_robot_launch/install.log --install-scripts $base/lib/my_robot_launch --single-version-externally-managed install_data

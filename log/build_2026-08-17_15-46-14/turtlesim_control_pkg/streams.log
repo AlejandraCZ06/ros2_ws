@@ -1,0 +1,37 @@
+[1.734s] Invoking command in '/home/alejandra/ros2_ws/src/turtlesim_control_pkg': PYTHONPATH=/home/alejandra/ros2_ws/build/turtlesim_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandra/ros2_ws/install/turtlesim_control_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlesim_control_pkg build --build-base /home/alejandra/ros2_ws/build/turtlesim_control_pkg/build install --record /home/alejandra/ros2_ws/build/turtlesim_control_pkg/install.log --install-scripts $base/lib/turtlesim_control_pkg --single-version-externally-managed install_data
+[2.043s] running egg_info
+[2.043s] creating ../../build/turtlesim_control_pkg/turtlesim_control_pkg.egg-info
+[2.062s] writing ../../build/turtlesim_control_pkg/turtlesim_control_pkg.egg-info/PKG-INFO
+[2.062s] writing dependency_links to ../../build/turtlesim_control_pkg/turtlesim_control_pkg.egg-info/dependency_links.txt
+[2.063s] writing entry points to ../../build/turtlesim_control_pkg/turtlesim_control_pkg.egg-info/entry_points.txt
+[2.066s] writing requirements to ../../build/turtlesim_control_pkg/turtlesim_control_pkg.egg-info/requires.txt
+[2.066s] writing top-level names to ../../build/turtlesim_control_pkg/turtlesim_control_pkg.egg-info/top_level.txt
+[2.066s] writing manifest file '../../build/turtlesim_control_pkg/turtlesim_control_pkg.egg-info/SOURCES.txt'
+[2.107s] reading manifest file '../../build/turtlesim_control_pkg/turtlesim_control_pkg.egg-info/SOURCES.txt'
+[2.108s] writing manifest file '../../build/turtlesim_control_pkg/turtlesim_control_pkg.egg-info/SOURCES.txt'
+[2.109s] running build
+[2.109s] running build_py
+[2.109s] creating /home/alejandra/ros2_ws/build/turtlesim_control_pkg/build
+[2.109s] creating /home/alejandra/ros2_ws/build/turtlesim_control_pkg/build/lib
+[2.109s] creating /home/alejandra/ros2_ws/build/turtlesim_control_pkg/build/lib/turtlesim_control_pkg
+[2.110s] copying turtlesim_control_pkg/turtle_mode_controller.py -> /home/alejandra/ros2_ws/build/turtlesim_control_pkg/build/lib/turtlesim_control_pkg
+[2.110s] copying turtlesim_control_pkg/__init__.py -> /home/alejandra/ros2_ws/build/turtlesim_control_pkg/build/lib/turtlesim_control_pkg
+[2.111s] running install
+[2.120s] running install_lib
+[2.138s] creating /home/alejandra/ros2_ws/install/turtlesim_control_pkg/lib/python3.12/site-packages/turtlesim_control_pkg
+[2.138s] copying /home/alejandra/ros2_ws/build/turtlesim_control_pkg/build/lib/turtlesim_control_pkg/turtle_mode_controller.py -> /home/alejandra/ros2_ws/install/turtlesim_control_pkg/lib/python3.12/site-packages/turtlesim_control_pkg
+[2.138s] copying /home/alejandra/ros2_ws/build/turtlesim_control_pkg/build/lib/turtlesim_control_pkg/__init__.py -> /home/alejandra/ros2_ws/install/turtlesim_control_pkg/lib/python3.12/site-packages/turtlesim_control_pkg
+[2.139s] byte-compiling /home/alejandra/ros2_ws/install/turtlesim_control_pkg/lib/python3.12/site-packages/turtlesim_control_pkg/turtle_mode_controller.py to turtle_mode_controller.cpython-312.pyc
+[2.141s] byte-compiling /home/alejandra/ros2_ws/install/turtlesim_control_pkg/lib/python3.12/site-packages/turtlesim_control_pkg/__init__.py to __init__.cpython-312.pyc
+[2.141s] running install_data
+[2.141s] creating /home/alejandra/ros2_ws/install/turtlesim_control_pkg/share/ament_index
+[2.141s] creating /home/alejandra/ros2_ws/install/turtlesim_control_pkg/share/ament_index/resource_index
+[2.141s] creating /home/alejandra/ros2_ws/install/turtlesim_control_pkg/share/ament_index/resource_index/packages
+[2.141s] copying resource/turtlesim_control_pkg -> /home/alejandra/ros2_ws/install/turtlesim_control_pkg/share/ament_index/resource_index/packages
+[2.142s] copying package.xml -> /home/alejandra/ros2_ws/install/turtlesim_control_pkg/share/turtlesim_control_pkg
+[2.142s] running install_egg_info
+[2.165s] Copying ../../build/turtlesim_control_pkg/turtlesim_control_pkg.egg-info to /home/alejandra/ros2_ws/install/turtlesim_control_pkg/lib/python3.12/site-packages/turtlesim_control_pkg-0.0.0-py3.12.egg-info
+[2.166s] running install_scripts
+[2.302s] Installing turtle_mode_controller script to /home/alejandra/ros2_ws/install/turtlesim_control_pkg/lib/turtlesim_control_pkg
+[2.302s] writing list of installed files to '/home/alejandra/ros2_ws/build/turtlesim_control_pkg/install.log'
+[2.346s] Invoked command in '/home/alejandra/ros2_ws/src/turtlesim_control_pkg' returned '0': PYTHONPATH=/home/alejandra/ros2_ws/build/turtlesim_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandra/ros2_ws/install/turtlesim_control_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlesim_control_pkg build --build-base /home/alejandra/ros2_ws/build/turtlesim_control_pkg/build install --record /home/alejandra/ros2_ws/build/turtlesim_control_pkg/install.log --install-scripts $base/lib/turtlesim_control_pkg --single-version-externally-managed install_data

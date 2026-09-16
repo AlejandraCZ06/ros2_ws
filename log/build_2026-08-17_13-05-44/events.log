@@ -1,0 +1,201 @@
+[0.000000] (-) TimerEvent: {}
+[0.000276] (-) JobUnselected: {'identifier': 'mi_primer_paquete'}
+[0.000306] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.000929] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.016874] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.018980] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/alejandra/ros2_ws/src/tutorial_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/alejandra/ros2_ws/install/tutorial_interfaces'], 'cwd': '/home/alejandra/ros2_ws/build/tutorial_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'alejandra', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/alejandra', 'OLDPWD': '/home/alejandra/ros2_ws/src/tutorial_interfaces', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'alejandra', 'NAME': 'AlejandraCZ', 'WSL_INTEROP': '/run/WSL/35245_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/PowerShell/7/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Microchip/xc-dsc/v3.21/bin:/mnt/c/Program Files/Microchip/xc16/v2.10/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/aleja/AppData/Local/Programs/oh-my-posh/bin/:/mnt/c/Users/aleja/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/aleja/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/aleja/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/aleja/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/aleja/AppData/Local/Microsoft/WinGet/Packages/JernejSimoncic.Wget_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/aleja/AppData/Local/spicetify:/mnt/c/Users/aleja/OneDrive/Escritorio/MikTex/miktex/bin/x64/:/snap/bin', 'WT_SESSION': 'e924ba63-0858-42c6-9a51-ef73dfd50bd1', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/alejandra/ros2_ws/build/tutorial_interfaces', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.099832] (-) TimerEvent: {}
+[0.200329] (-) TimerEvent: {}
+[0.300762] (-) TimerEvent: {}
+[0.401418] (-) TimerEvent: {}
+[0.501958] (-) TimerEvent: {}
+[0.602601] (-) TimerEvent: {}
+[0.676098] (tutorial_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.702778] (-) TimerEvent: {}
+[0.803361] (-) TimerEvent: {}
+[0.903988] (-) TimerEvent: {}
+[1.004641] (-) TimerEvent: {}
+[1.105265] (-) TimerEvent: {}
+[1.205979] (-) TimerEvent: {}
+[1.306581] (-) TimerEvent: {}
+[1.407013] (-) TimerEvent: {}
+[1.507580] (-) TimerEvent: {}
+[1.608426] (-) TimerEvent: {}
+[1.709123] (-) TimerEvent: {}
+[1.809785] (-) TimerEvent: {}
+[1.910366] (-) TimerEvent: {}
+[2.010805] (-) TimerEvent: {}
+[2.111563] (-) TimerEvent: {}
+[2.212270] (-) TimerEvent: {}
+[2.313267] (-) TimerEvent: {}
+[2.413792] (-) TimerEvent: {}
+[2.514396] (-) TimerEvent: {}
+[2.615233] (-) TimerEvent: {}
+[2.715725] (-) TimerEvent: {}
+[2.816217] (-) TimerEvent: {}
+[2.916727] (-) TimerEvent: {}
+[3.017362] (-) TimerEvent: {}
+[3.117917] (-) TimerEvent: {}
+[3.218520] (-) TimerEvent: {}
+[3.319146] (-) TimerEvent: {}
+[3.326549] (tutorial_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[3.419492] (-) TimerEvent: {}
+[3.520020] (-) TimerEvent: {}
+[3.620509] (-) TimerEvent: {}
+[3.720889] (-) TimerEvent: {}
+[3.821421] (-) TimerEvent: {}
+[3.922202] (-) TimerEvent: {}
+[4.022591] (-) TimerEvent: {}
+[4.123047] (-) TimerEvent: {}
+[4.223543] (-) TimerEvent: {}
+[4.324123] (-) TimerEvent: {}
+[4.424725] (-) TimerEvent: {}
+[4.525385] (-) TimerEvent: {}
+[4.625891] (-) TimerEvent: {}
+[4.726362] (-) TimerEvent: {}
+[4.826763] (-) TimerEvent: {}
+[4.927242] (-) TimerEvent: {}
+[5.027752] (-) TimerEvent: {}
+[5.128296] (-) TimerEvent: {}
+[5.228971] (-) TimerEvent: {}
+[5.329471] (-) TimerEvent: {}
+[5.430116] (-) TimerEvent: {}
+[5.530605] (-) TimerEvent: {}
+[5.560141] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.630816] (-) TimerEvent: {}
+[5.731470] (-) TimerEvent: {}
+[5.832003] (-) TimerEvent: {}
+[5.932651] (-) TimerEvent: {}
+[6.033219] (-) TimerEvent: {}
+[6.133746] (-) TimerEvent: {}
+[6.234218] (-) TimerEvent: {}
+[6.334748] (-) TimerEvent: {}
+[6.435408] (-) TimerEvent: {}
+[6.473498] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.487910] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.489745] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.491340] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.535578] (-) TimerEvent: {}
+[6.636057] (-) TimerEvent: {}
+[6.736681] (-) TimerEvent: {}
+[6.837179] (-) TimerEvent: {}
+[6.874358] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.937412] (-) TimerEvent: {}
+[7.038032] (-) TimerEvent: {}
+[7.138528] (-) TimerEvent: {}
+[7.239120] (-) TimerEvent: {}
+[7.339885] (-) TimerEvent: {}
+[7.440343] (-) TimerEvent: {}
+[7.540759] (-) TimerEvent: {}
+[7.641219] (-) TimerEvent: {}
+[7.741669] (-) TimerEvent: {}
+[7.743635] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.756337] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.756862] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.757442] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.841499] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[7.841708] (-) TimerEvent: {}
+[7.942159] (-) TimerEvent: {}
+[8.000021] (tutorial_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[8.042268] (-) TimerEvent: {}
+[8.142697] (-) TimerEvent: {}
+[8.184974] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[8.242886] (-) TimerEvent: {}
+[8.343547] (-) TimerEvent: {}
+[8.444047] (-) TimerEvent: {}
+[8.544701] (-) TimerEvent: {}
+[8.645345] (-) TimerEvent: {}
+[8.743936] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[8.745438] (-) TimerEvent: {}
+[8.766058] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[8.796791] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.828887] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.845608] (-) TimerEvent: {}
+[8.946082] (-) TimerEvent: {}
+[8.985623] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[8.992610] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.046256] (-) TimerEvent: {}
+[9.122204] (tutorial_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[9.146397] (-) TimerEvent: {}
+[9.246857] (-) TimerEvent: {}
+[9.347323] (-) TimerEvent: {}
+[9.447921] (-) TimerEvent: {}
+[9.548495] (-) TimerEvent: {}
+[9.649000] (-) TimerEvent: {}
+[9.675587] (tutorial_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[9.749235] (-) TimerEvent: {}
+[9.849910] (-) TimerEvent: {}
+[9.950480] (-) TimerEvent: {}
+[9.964188] (tutorial_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.050940] (-) TimerEvent: {}
+[10.151413] (-) TimerEvent: {}
+[10.252019] (-) TimerEvent: {}
+[10.352651] (-) TimerEvent: {}
+[10.453410] (-) TimerEvent: {}
+[10.554058] (-) TimerEvent: {}
+[10.631735] (tutorial_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[10.654315] (-) TimerEvent: {}
+[10.689889] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[10.754595] (-) TimerEvent: {}
+[10.757788] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[10.772585] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[10.854924] (-) TimerEvent: {}
+[10.875001] (tutorial_interfaces) StderrLine: {'line': b"Error parsing '/home/alejandra/ros2_ws/src/tutorial_interfaces/package.xml':\n"}
+[10.955054] (-) TimerEvent: {}
+[11.055446] (-) TimerEvent: {}
+[11.155877] (-) TimerEvent: {}
+[11.256555] (-) TimerEvent: {}
+[11.357205] (-) TimerEvent: {}
+[11.457707] (-) TimerEvent: {}
+[11.558287] (-) TimerEvent: {}
+[11.658740] (-) TimerEvent: {}
+[11.759203] (-) TimerEvent: {}
+[11.859690] (-) TimerEvent: {}
+[11.960231] (-) TimerEvent: {}
+[12.060843] (-) TimerEvent: {}
+[12.161419] (-) TimerEvent: {}
+[12.262050] (-) TimerEvent: {}
+[12.362707] (-) TimerEvent: {}
+[12.463079] (-) TimerEvent: {}
+[12.563484] (-) TimerEvent: {}
+[12.664018] (-) TimerEvent: {}
+[12.764626] (-) TimerEvent: {}
+[12.865080] (-) TimerEvent: {}
+[12.965502] (-) TimerEvent: {}
+[13.066011] (-) TimerEvent: {}
+[13.166391] (-) TimerEvent: {}
+[13.266834] (-) TimerEvent: {}
+[13.367307] (-) TimerEvent: {}
+[13.467686] (-) TimerEvent: {}
+[13.568204] (-) TimerEvent: {}
+[13.668730] (-) TimerEvent: {}
+[13.715228] (tutorial_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[13.715444] (tutorial_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[13.715545] (tutorial_interfaces) StderrLine: {'line': b'    main()\n'}
+[13.715660] (tutorial_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[13.715771] (tutorial_interfaces) StderrLine: {'line': b'    raise e\n'}
+[13.715920] (tutorial_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[13.715992] (tutorial_interfaces) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[13.716045] (tutorial_interfaces) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^^^^\n'}
+[13.716096] (tutorial_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string\n'}
+[13.716146] (tutorial_interfaces) StderrLine: {'line': b"    raise InvalidPackage('Error(s):%s' % (''.join(['\\n- %s' % e for e in errors])), filename)\n"}
+[13.716197] (tutorial_interfaces) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/alejandra/ros2_ws/src/tutorial_interfaces/package.xml':\n"}
+[13.716246] (tutorial_interfaces) StderrLine: {'line': b'Error(s):\n'}
+[13.716291] (tutorial_interfaces) StderrLine: {'line': b"- The generic dependency on 'rosidl_default_generators' is redundant with: build_depend\n"}
+[13.751326] (tutorial_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[13.751514] (tutorial_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[13.751605] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[13.751659] (tutorial_interfaces) StderrLine: {'line': b'  /home/alejandra/ros2_ws/src/tutorial_interfaces/package.xml\n'}
+[13.751761] (tutorial_interfaces) StderrLine: {'line': b'  /home/alejandra/ros2_ws/build/tutorial_interfaces/ament_cmake_core/package.cmake)\n'}
+[13.751826] (tutorial_interfaces) StderrLine: {'line': b'  returned error code 1\n'}
+[13.751943] (tutorial_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[13.752082] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[13.752205] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[13.752309] (tutorial_interfaces) StderrLine: {'line': b'  CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)\n'}
+[13.752444] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[13.752510] (tutorial_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[13.752560] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[13.761909] (tutorial_interfaces) CommandEnded: {'returncode': 1}
+[13.762641] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 1}
+[13.768942] (-) TimerEvent: {}
+[13.773356] (-) EventReactorShutdown: {}

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/mi_primer_paquete/mi_primer_paquete.egg-info
+writing ../../build/mi_primer_paquete/mi_primer_paquete.egg-info/PKG-INFO
+writing dependency_links to ../../build/mi_primer_paquete/mi_primer_paquete.egg-info/dependency_links.txt
+writing entry points to ../../build/mi_primer_paquete/mi_primer_paquete.egg-info/entry_points.txt
+writing requirements to ../../build/mi_primer_paquete/mi_primer_paquete.egg-info/requires.txt
+writing top-level names to ../../build/mi_primer_paquete/mi_primer_paquete.egg-info/top_level.txt
+writing manifest file '../../build/mi_primer_paquete/mi_primer_paquete.egg-info/SOURCES.txt'
+reading manifest file '../../build/mi_primer_paquete/mi_primer_paquete.egg-info/SOURCES.txt'
+writing manifest file '../../build/mi_primer_paquete/mi_primer_paquete.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/alejandra/ros2_ws/build/mi_primer_paquete/build
+creating /home/alejandra/ros2_ws/build/mi_primer_paquete/build/lib
+creating /home/alejandra/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete
+copying mi_primer_paquete/mi_nodo.py -> /home/alejandra/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete
+copying mi_primer_paquete/__init__.py -> /home/alejandra/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete
+running install
+running install_lib
+creating /home/alejandra/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete
+copying /home/alejandra/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete/mi_nodo.py -> /home/alejandra/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete
+copying /home/alejandra/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete/__init__.py -> /home/alejandra/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete
+byte-compiling /home/alejandra/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/mi_nodo.py to mi_nodo.cpython-312.pyc
+byte-compiling /home/alejandra/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/alejandra/ros2_ws/install/mi_primer_paquete/share/ament_index
+creating /home/alejandra/ros2_ws/install/mi_primer_paquete/share/ament_index/resource_index
+creating /home/alejandra/ros2_ws/install/mi_primer_paquete/share/ament_index/resource_index/packages
+copying resource/mi_primer_paquete -> /home/alejandra/ros2_ws/install/mi_primer_paquete/share/ament_index/resource_index/packages
+copying package.xml -> /home/alejandra/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete
+running install_egg_info
+Copying ../../build/mi_primer_paquete/mi_primer_paquete.egg-info to /home/alejandra/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete-0.0.0-py3.12.egg-info
+running install_scripts
+Installing nodo_control script to /home/alejandra/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+writing list of installed files to '/home/alejandra/ros2_ws/build/mi_primer_paquete/install.log'

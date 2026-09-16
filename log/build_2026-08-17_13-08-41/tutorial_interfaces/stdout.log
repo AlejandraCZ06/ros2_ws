@@ -1,0 +1,284 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (5.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/alejandra/ros2_ws/build/tutorial_interfaces
+[  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[  4%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  4%] Built target ament_cmake_python_copy_tutorial_interfaces
+[  4%] Built target tutorial_interfaces__rosidl_generator_type_description
+running egg_info
+creating tutorial_interfaces.egg-info
+[  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+writing tutorial_interfaces.egg-info/PKG-INFO
+writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[  8%] Built target tutorial_interfaces__rs
+reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[  8%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[  8%] Built target tutorial_interfaces__cpp
+[ 11%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__description.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/hypotenuse__description.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/hypotenuse__type_support.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/hypotenuse__functions.c.o[0m
+[ 24%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[ 24%] Built target tutorial_interfaces__rosidl_generator_c
+[ 26%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 33%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 35%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 37%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/hypotenuse__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/hypotenuse__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/hypotenuse__type_support.cpp.o[0m
+[ 53%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/hypotenuse__type_support.c.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/hypotenuse__type_support.cpp.o[0m
+[ 62%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/hypotenuse__type_support_c.cpp.o[0m
+[ 68%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[ 68%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[ 68%] Built target tutorial_interfaces__rosidl_typesupport_c
+[ 71%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[ 73%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 75%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 75%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[ 75%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[ 77%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 77%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[ 77%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 77%] Built target tutorial_interfaces
+[ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 80%] Built target tutorial_interfaces__py
+[ 82%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_hypotenuse_s.c.o[0m
+[ 86%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_py.so[0m
+[ 86%] Built target tutorial_interfaces__rosidl_generator_py
+[ 93%] [32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 95%] [32m[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[ 97%] [32m[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[100%] Built target tutorial_interfaces_s__rosidl_typesupport_c
+[100%] Built target tutorial_interfaces_s__rosidl_typesupport_introspection_c
+[100%] Built target tutorial_interfaces_s__rosidl_typesupport_fastrtps_c
+-- Install configuration: ""
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.json
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/Hypotenuse.json
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/hypotenuse.h
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__functions.c
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__functions.h
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__description.c
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__type_support.h
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__type_support.c
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__struct.h
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__description.c
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__struct.hpp
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__builder.hpp
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__traits.hpp
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__type_support.hpp
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/hypotenuse.hpp
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.hpp
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__rosidl_typesupport_introspection_c.h
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__type_support.c
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__type_support.cpp
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_hypotenuse.py
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/__init__.py
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_hypotenuse_s.c
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num_s.c
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num.py
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/__init__.py
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/__init__.py
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so
+Listing '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces'...
+Compiling '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/__init__.py'...
+Listing '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg'...
+Compiling '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/__init__.py'...
+Compiling '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num.py'...
+Listing '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv'...
+Compiling '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/__init__.py'...
+Compiling '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_hypotenuse.py'...
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/rust_packages/tutorial_interfaces
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/build.rs
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/Cargo.toml
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/srv.rs
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/msg.rs
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/srv
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/srv/rmw.rs
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/lib.rs
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/msg
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/msg/rmw.rs
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/Hypotenuse.idl
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/Hypotenuse.srv
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml

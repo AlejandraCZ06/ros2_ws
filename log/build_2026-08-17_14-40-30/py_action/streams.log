@@ -1,0 +1,37 @@
+[3.197s] Invoking command in '/home/alejandra/ros2_ws/src/py_action': PYTHONPATH=/home/alejandra/ros2_ws/build/py_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandra/ros2_ws/install/py_action/lib/python3.12/site-packages:/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/alejandra/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/alejandra/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_action build --build-base /home/alejandra/ros2_ws/build/py_action/build install --record /home/alejandra/ros2_ws/build/py_action/install.log --install-scripts $base/lib/py_action --single-version-externally-managed install_data
+[3.637s] running egg_info
+[3.637s] creating ../../build/py_action/py_action.egg-info
+[3.665s] writing ../../build/py_action/py_action.egg-info/PKG-INFO
+[3.665s] writing dependency_links to ../../build/py_action/py_action.egg-info/dependency_links.txt
+[3.666s] writing entry points to ../../build/py_action/py_action.egg-info/entry_points.txt
+[3.666s] writing requirements to ../../build/py_action/py_action.egg-info/requires.txt
+[3.666s] writing top-level names to ../../build/py_action/py_action.egg-info/top_level.txt
+[3.666s] writing manifest file '../../build/py_action/py_action.egg-info/SOURCES.txt'
+[3.721s] reading manifest file '../../build/py_action/py_action.egg-info/SOURCES.txt'
+[3.722s] writing manifest file '../../build/py_action/py_action.egg-info/SOURCES.txt'
+[3.723s] running build
+[3.724s] running build_py
+[3.724s] creating /home/alejandra/ros2_ws/build/py_action/build
+[3.724s] creating /home/alejandra/ros2_ws/build/py_action/build/lib
+[3.724s] creating /home/alejandra/ros2_ws/build/py_action/build/lib/py_action
+[3.725s] copying py_action/fibonacci_action_server.py -> /home/alejandra/ros2_ws/build/py_action/build/lib/py_action
+[3.725s] copying py_action/__init__.py -> /home/alejandra/ros2_ws/build/py_action/build/lib/py_action
+[3.726s] running install
+[3.738s] running install_lib
+[3.777s] creating /home/alejandra/ros2_ws/install/py_action/lib/python3.12/site-packages/py_action
+[3.777s] copying /home/alejandra/ros2_ws/build/py_action/build/lib/py_action/fibonacci_action_server.py -> /home/alejandra/ros2_ws/install/py_action/lib/python3.12/site-packages/py_action
+[3.778s] copying /home/alejandra/ros2_ws/build/py_action/build/lib/py_action/__init__.py -> /home/alejandra/ros2_ws/install/py_action/lib/python3.12/site-packages/py_action
+[3.779s] byte-compiling /home/alejandra/ros2_ws/install/py_action/lib/python3.12/site-packages/py_action/fibonacci_action_server.py to fibonacci_action_server.cpython-312.pyc
+[3.781s] byte-compiling /home/alejandra/ros2_ws/install/py_action/lib/python3.12/site-packages/py_action/__init__.py to __init__.cpython-312.pyc
+[3.783s] running install_data
+[3.784s] creating /home/alejandra/ros2_ws/install/py_action/share/ament_index
+[3.784s] creating /home/alejandra/ros2_ws/install/py_action/share/ament_index/resource_index
+[3.784s] creating /home/alejandra/ros2_ws/install/py_action/share/ament_index/resource_index/packages
+[3.785s] copying resource/py_action -> /home/alejandra/ros2_ws/install/py_action/share/ament_index/resource_index/packages
+[3.785s] copying package.xml -> /home/alejandra/ros2_ws/install/py_action/share/py_action
+[3.785s] running install_egg_info
+[3.809s] Copying ../../build/py_action/py_action.egg-info to /home/alejandra/ros2_ws/install/py_action/lib/python3.12/site-packages/py_action-0.0.0-py3.12.egg-info
+[3.811s] running install_scripts
+[3.972s] Installing server script to /home/alejandra/ros2_ws/install/py_action/lib/py_action
+[3.972s] writing list of installed files to '/home/alejandra/ros2_ws/build/py_action/install.log'
+[4.025s] Invoked command in '/home/alejandra/ros2_ws/src/py_action' returned '0': PYTHONPATH=/home/alejandra/ros2_ws/build/py_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandra/ros2_ws/install/py_action/lib/python3.12/site-packages:/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/alejandra/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/alejandra/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_action build --build-base /home/alejandra/ros2_ws/build/py_action/build install --record /home/alejandra/ros2_ws/build/py_action/install.log --install-scripts $base/lib/py_action --single-version-externally-managed install_data

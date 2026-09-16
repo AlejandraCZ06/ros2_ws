@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/py_action/py_action.egg-info
+writing ../../build/py_action/py_action.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_action/py_action.egg-info/dependency_links.txt
+writing entry points to ../../build/py_action/py_action.egg-info/entry_points.txt
+writing requirements to ../../build/py_action/py_action.egg-info/requires.txt
+writing top-level names to ../../build/py_action/py_action.egg-info/top_level.txt
+writing manifest file '../../build/py_action/py_action.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_action/py_action.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_action/py_action.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/alejandra/ros2_ws/build/py_action/build
+creating /home/alejandra/ros2_ws/build/py_action/build/lib
+creating /home/alejandra/ros2_ws/build/py_action/build/lib/py_action
+copying py_action/fibonacci_action_server.py -> /home/alejandra/ros2_ws/build/py_action/build/lib/py_action
+copying py_action/__init__.py -> /home/alejandra/ros2_ws/build/py_action/build/lib/py_action
+running install
+running install_lib
+creating /home/alejandra/ros2_ws/install/py_action/lib/python3.12/site-packages/py_action
+copying /home/alejandra/ros2_ws/build/py_action/build/lib/py_action/fibonacci_action_server.py -> /home/alejandra/ros2_ws/install/py_action/lib/python3.12/site-packages/py_action
+copying /home/alejandra/ros2_ws/build/py_action/build/lib/py_action/__init__.py -> /home/alejandra/ros2_ws/install/py_action/lib/python3.12/site-packages/py_action
+byte-compiling /home/alejandra/ros2_ws/install/py_action/lib/python3.12/site-packages/py_action/fibonacci_action_server.py to fibonacci_action_server.cpython-312.pyc
+byte-compiling /home/alejandra/ros2_ws/install/py_action/lib/python3.12/site-packages/py_action/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/alejandra/ros2_ws/install/py_action/share/ament_index
+creating /home/alejandra/ros2_ws/install/py_action/share/ament_index/resource_index
+creating /home/alejandra/ros2_ws/install/py_action/share/ament_index/resource_index/packages
+copying resource/py_action -> /home/alejandra/ros2_ws/install/py_action/share/ament_index/resource_index/packages
+copying package.xml -> /home/alejandra/ros2_ws/install/py_action/share/py_action
+running install_egg_info
+Copying ../../build/py_action/py_action.egg-info to /home/alejandra/ros2_ws/install/py_action/lib/python3.12/site-packages/py_action-0.0.0-py3.12.egg-info
+running install_scripts
+Installing server script to /home/alejandra/ros2_ws/install/py_action/lib/py_action
+writing list of installed files to '/home/alejandra/ros2_ws/build/py_action/install.log'

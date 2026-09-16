@@ -1,0 +1,396 @@
+[0.000000] (-) TimerEvent: {}
+[0.000524] (-) JobUnselected: {'identifier': 'mi_primer_paquete'}
+[0.001865] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.001901] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.015657] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.016187] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/alejandra/ros2_ws/src/tutorial_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/alejandra/ros2_ws/install/tutorial_interfaces'], 'cwd': '/home/alejandra/ros2_ws/build/tutorial_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'alejandra', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/alejandra', 'OLDPWD': '/home/alejandra/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'alejandra', 'NAME': 'AlejandraCZ', 'WSL_INTEROP': '/run/WSL/35245_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/PowerShell/7/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Microchip/xc-dsc/v3.21/bin:/mnt/c/Program Files/Microchip/xc16/v2.10/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/aleja/AppData/Local/Programs/oh-my-posh/bin/:/mnt/c/Users/aleja/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/aleja/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/aleja/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/aleja/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/aleja/AppData/Local/Microsoft/WinGet/Packages/JernejSimoncic.Wget_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/aleja/AppData/Local/spicetify:/mnt/c/Users/aleja/OneDrive/Escritorio/MikTex/miktex/bin/x64/:/snap/bin', 'WT_SESSION': 'e924ba63-0858-42c6-9a51-ef73dfd50bd1', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/alejandra/ros2_ws/build/tutorial_interfaces', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.100058] (-) TimerEvent: {}
+[0.105960] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.200210] (-) TimerEvent: {}
+[0.300615] (-) TimerEvent: {}
+[0.400965] (-) TimerEvent: {}
+[0.412737] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.501210] (-) TimerEvent: {}
+[0.601929] (-) TimerEvent: {}
+[0.702415] (-) TimerEvent: {}
+[0.802966] (-) TimerEvent: {}
+[0.856532] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.872805] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.893548] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.903110] (-) TimerEvent: {}
+[0.915864] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.003289] (-) TimerEvent: {}
+[1.037667] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.042457] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.103486] (-) TimerEvent: {}
+[1.204103] (-) TimerEvent: {}
+[1.304836] (-) TimerEvent: {}
+[1.405396] (-) TimerEvent: {}
+[1.505844] (-) TimerEvent: {}
+[1.606469] (-) TimerEvent: {}
+[1.707155] (-) TimerEvent: {}
+[1.807755] (-) TimerEvent: {}
+[1.908306] (-) TimerEvent: {}
+[1.993760] (tutorial_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.008617] (-) TimerEvent: {}
+[2.109157] (-) TimerEvent: {}
+[2.209609] (-) TimerEvent: {}
+[2.310167] (-) TimerEvent: {}
+[2.410714] (-) TimerEvent: {}
+[2.511312] (-) TimerEvent: {}
+[2.611831] (-) TimerEvent: {}
+[2.622334] (tutorial_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[2.669842] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[2.689384] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.694662] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.712049] (-) TimerEvent: {}
+[2.812405] (-) TimerEvent: {}
+[2.912936] (-) TimerEvent: {}
+[3.013310] (-) TimerEvent: {}
+[3.113810] (-) TimerEvent: {}
+[3.214280] (-) TimerEvent: {}
+[3.314755] (-) TimerEvent: {}
+[3.388275] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.414920] (-) TimerEvent: {}
+[3.515489] (-) TimerEvent: {}
+[3.615838] (-) TimerEvent: {}
+[3.716191] (-) TimerEvent: {}
+[3.816556] (-) TimerEvent: {}
+[3.917013] (-) TimerEvent: {}
+[4.017431] (-) TimerEvent: {}
+[4.117870] (-) TimerEvent: {}
+[4.217663] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.218069] (-) TimerEvent: {}
+[4.318453] (-) TimerEvent: {}
+[4.418789] (-) TimerEvent: {}
+[4.510541] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.517215] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.519015] (-) TimerEvent: {}
+[4.619483] (-) TimerEvent: {}
+[4.657133] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[4.719695] (-) TimerEvent: {}
+[4.820067] (-) TimerEvent: {}
+[4.920489] (-) TimerEvent: {}
+[5.020815] (-) TimerEvent: {}
+[5.121174] (-) TimerEvent: {}
+[5.221531] (-) TimerEvent: {}
+[5.259551] (tutorial_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.321708] (-) TimerEvent: {}
+[5.326041] (tutorial_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[5.338387] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.340894] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.354467] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done (5.3s)\n'}
+[5.408988] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[5.421875] (-) TimerEvent: {}
+[5.423098] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/alejandra/ros2_ws/build/tutorial_interfaces\n'}
+[5.439494] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[5.440076] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[5.440870] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alejandra/ros2_ws/build/tutorial_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/alejandra/ros2_ws/build/tutorial_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'alejandra', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/alejandra', 'OLDPWD': '/home/alejandra/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'alejandra', 'NAME': 'AlejandraCZ', 'WSL_INTEROP': '/run/WSL/35245_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/PowerShell/7/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Microchip/xc-dsc/v3.21/bin:/mnt/c/Program Files/Microchip/xc16/v2.10/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/aleja/AppData/Local/Programs/oh-my-posh/bin/:/mnt/c/Users/aleja/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/aleja/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/aleja/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/aleja/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/aleja/AppData/Local/Microsoft/WinGet/Packages/JernejSimoncic.Wget_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/aleja/AppData/Local/spicetify:/mnt/c/Users/aleja/OneDrive/Escritorio/MikTex/miktex/bin/x64/:/snap/bin', 'WT_SESSION': 'e924ba63-0858-42c6-9a51-ef73dfd50bd1', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/alejandra/ros2_ws/build/tutorial_interfaces', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[5.495171] (tutorial_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[5.496188] (tutorial_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[5.505672] (tutorial_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_tutorial_interfaces\n'}
+[5.522051] (-) TimerEvent: {}
+[5.622503] (-) TimerEvent: {}
+[5.707660] (tutorial_interfaces) StdoutLine: {'line': b'[  4%] Built target tutorial_interfaces__rosidl_generator_type_description\n'}
+[5.709890] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[5.711758] (tutorial_interfaces) StdoutLine: {'line': b'creating tutorial_interfaces.egg-info\n'}
+[5.717055] (tutorial_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.722662] (-) TimerEvent: {}
+[5.727152] (tutorial_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.735674] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[5.736039] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[5.736605] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[5.737056] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[5.740431] (tutorial_interfaces) StdoutLine: {'line': b'[  8%] Built target tutorial_interfaces__rs\n'}
+[5.784802] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[5.785570] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[5.814561] (tutorial_interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[5.822908] (-) TimerEvent: {}
+[5.923420] (-) TimerEvent: {}
+[6.004510] (tutorial_interfaces) StdoutLine: {'line': b'[  8%] Built target tutorial_interfaces__cpp\n'}
+[6.023603] (-) TimerEvent: {}
+[6.062697] (tutorial_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[6.063525] (tutorial_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o\x1b[0m\n'}
+[6.064315] (tutorial_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__description.c.o\x1b[0m\n'}
+[6.064792] (tutorial_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/hypotenuse__description.c.o\x1b[0m\n'}
+[6.065199] (tutorial_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/hypotenuse__type_support.c.o\x1b[0m\n'}
+[6.067580] (tutorial_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/hypotenuse__functions.c.o\x1b[0m\n'}
+[6.123742] (-) TimerEvent: {}
+[6.216588] (tutorial_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[6.223951] (-) TimerEvent: {}
+[6.324333] (-) TimerEvent: {}
+[6.424813] (-) TimerEvent: {}
+[6.452622] (tutorial_interfaces) StdoutLine: {'line': b'[ 24%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[6.473599] (tutorial_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.474879] (tutorial_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.475815] (tutorial_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.476046] (tutorial_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.476219] (tutorial_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.479526] (tutorial_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.525039] (-) TimerEvent: {}
+[6.625507] (-) TimerEvent: {}
+[6.725940] (-) TimerEvent: {}
+[6.785839] (tutorial_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/hypotenuse__type_support.cpp.o\x1b[0m\n'}
+[6.786278] (tutorial_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[6.788235] (tutorial_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[6.790606] (tutorial_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/hypotenuse__type_support.cpp.o\x1b[0m\n'}
+[6.818855] (tutorial_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[6.819351] (tutorial_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/hypotenuse__type_support.cpp.o\x1b[0m\n'}
+[6.826081] (-) TimerEvent: {}
+[6.861023] (tutorial_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/hypotenuse__type_support.c.o\x1b[0m\n'}
+[6.861662] (tutorial_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[6.883313] (tutorial_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[6.883555] (tutorial_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/hypotenuse__type_support.cpp.o\x1b[0m\n'}
+[6.926257] (-) TimerEvent: {}
+[6.931877] (tutorial_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.934361] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[6.936203] (tutorial_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/hypotenuse__type_support_c.cpp.o\x1b[0m\n'}
+[6.936515] (tutorial_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.026495] (-) TimerEvent: {}
+[7.124694] (tutorial_interfaces) StdoutLine: {'line': b'[ 68%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[7.126777] (-) TimerEvent: {}
+[7.143733] (tutorial_interfaces) StdoutLine: {'line': b'[ 68%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[7.226939] (-) TimerEvent: {}
+[7.327524] (-) TimerEvent: {}
+[7.428118] (-) TimerEvent: {}
+[7.528822] (-) TimerEvent: {}
+[7.531972] (tutorial_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.566981] (tutorial_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.628997] (-) TimerEvent: {}
+[7.729416] (-) TimerEvent: {}
+[7.741968] (tutorial_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.817578] (tutorial_interfaces) StdoutLine: {'line': b'[ 75%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[7.829619] (-) TimerEvent: {}
+[7.847997] (tutorial_interfaces) StdoutLine: {'line': b'[ 75%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[7.861243] (tutorial_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.929750] (-) TimerEvent: {}
+[7.973397] (tutorial_interfaces) StdoutLine: {'line': b'[ 77%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[8.029972] (-) TimerEvent: {}
+[8.110437] (tutorial_interfaces) StdoutLine: {'line': b'[ 77%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[8.130239] (-) TimerEvent: {}
+[8.133360] (tutorial_interfaces) StdoutLine: {'line': b'[ 77%] Built target tutorial_interfaces\n'}
+[8.160548] (tutorial_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.230429] (-) TimerEvent: {}
+[8.330815] (-) TimerEvent: {}
+[8.431303] (-) TimerEvent: {}
+[8.531762] (-) TimerEvent: {}
+[8.604703] (tutorial_interfaces) StdoutLine: {'line': b'[ 80%] Built target tutorial_interfaces__py\n'}
+[8.625336] (tutorial_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o\x1b[0m\n'}
+[8.625922] (tutorial_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_hypotenuse_s.c.o\x1b[0m\n'}
+[8.631966] (-) TimerEvent: {}
+[8.732394] (-) TimerEvent: {}
+[8.832738] (-) TimerEvent: {}
+[8.851291] (tutorial_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[8.932913] (-) TimerEvent: {}
+[9.033380] (-) TimerEvent: {}
+[9.133920] (-) TimerEvent: {}
+[9.154391] (tutorial_interfaces) StdoutLine: {'line': b'[ 86%] Built target tutorial_interfaces__rosidl_generator_py\n'}
+[9.183964] (tutorial_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.184287] (tutorial_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.184452] (tutorial_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.234357] (-) TimerEvent: {}
+[9.294322] (tutorial_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.303214] (tutorial_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.310878] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.334525] (-) TimerEvent: {}
+[9.435248] (-) TimerEvent: {}
+[9.512013] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces_s__rosidl_typesupport_c\n'}
+[9.522154] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[9.535431] (-) TimerEvent: {}
+[9.615217] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[9.635897] (-) TimerEvent: {}
+[9.639685] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[9.641377] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[9.656083] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alejandra/ros2_ws/build/tutorial_interfaces'], 'cwd': '/home/alejandra/ros2_ws/build/tutorial_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'alejandra', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/alejandra', 'OLDPWD': '/home/alejandra/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'alejandra', 'NAME': 'AlejandraCZ', 'WSL_INTEROP': '/run/WSL/35245_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/PowerShell/7/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Microchip/xc-dsc/v3.21/bin:/mnt/c/Program Files/Microchip/xc16/v2.10/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/aleja/AppData/Local/Programs/oh-my-posh/bin/:/mnt/c/Users/aleja/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/aleja/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/aleja/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/aleja/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/aleja/AppData/Local/Microsoft/WinGet/Packages/JernejSimoncic.Wget_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/aleja/AppData/Local/spicetify:/mnt/c/Users/aleja/OneDrive/Escritorio/MikTex/miktex/bin/x64/:/snap/bin', 'WT_SESSION': 'e924ba63-0858-42c6-9a51-ef73dfd50bd1', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/alejandra/ros2_ws/build/tutorial_interfaces', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[9.668819] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.669536] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[9.670391] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.json\n'}
+[9.670722] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/Hypotenuse.json\n'}
+[9.671298] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[9.671685] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[9.671951] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/hypotenuse.h\n'}
+[9.672206] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[9.672286] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__functions.c\n'}
+[9.672386] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__functions.h\n'}
+[9.672445] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__description.c\n'}
+[9.672646] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__type_support.h\n'}
+[9.672810] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__type_support.c\n'}
+[9.673078] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__struct.h\n'}
+[9.673160] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[9.673289] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.673479] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[9.673638] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__description.c\n'}
+[9.673805] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c\n'}
+[9.673961] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c\n'}
+[9.674391] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h\n'}
+[9.674770] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h\n'}
+[9.675102] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h\n'}
+[9.675479] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h\n'}
+[9.675699] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[9.676089] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[9.676512] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[9.677077] (tutorial_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""\n'}
+[9.677657] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[9.677815] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[9.678050] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[9.678383] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__rosidl_typesupport_fastrtps_c.h\n'}
+[9.678722] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[9.679906] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[9.680757] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[9.681479] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.681623] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[9.681772] (tutorial_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.681923] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[9.682076] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[9.682203] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[9.682390] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__struct.hpp\n'}
+[9.682445] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__builder.hpp\n'}
+[9.682510] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__traits.hpp\n'}
+[9.682622] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__type_support.hpp\n'}
+[9.682839] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/hypotenuse.hpp\n'}
+[9.683014] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[9.683159] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp\n'}
+[9.683302] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[9.683448] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp\n'}
+[9.683582] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp\n'}
+[9.683872] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.hpp\n'}
+[9.684036] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp\n'}
+[9.684204] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[9.684390] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[9.684447] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[9.684496] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[9.684677] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.684776] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps\n'}
+[9.684889] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[9.685037] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.685185] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[9.685489] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.685695] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps\n'}
+[9.686069] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.686511] (tutorial_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.686718] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[9.687072] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[9.687510] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[9.687766] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__rosidl_typesupport_introspection_c.h\n'}
+[9.687960] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__type_support.c\n'}
+[9.688119] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[9.688262] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[9.688487] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[9.688640] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c\n'}
+[9.688780] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.688917] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[9.689075] (tutorial_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.689225] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[9.689428] (tutorial_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[9.689487] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[9.689538] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[9.689677] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[9.689826] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.689970] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/hypotenuse__type_support.cpp\n'}
+[9.690105] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[9.690244] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[9.690453] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.690606] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp\n'}
+[9.690757] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[9.691071] (tutorial_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.691524] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[9.691787] (tutorial_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[9.691941] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[9.692212] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[9.692319] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info\n'}
+[9.692457] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[9.692583] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[9.692711] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[9.692812] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[9.692864] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces\n'}
+[9.692920] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.692975] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[9.693091] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv\n'}
+[9.693200] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_hypotenuse.py\n'}
+[9.693275] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/__init__.py\n'}
+[9.693334] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_hypotenuse_s.c\n'}
+[9.693388] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg\n'}
+[9.693468] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num_s.c\n'}
+[9.693584] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num.py\n'}
+[9.693698] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/__init__.py\n'}
+[9.693811] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/__init__.py\n'}
+[9.693963] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.694121] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[9.694258] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[9.694378] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so\n'}
+[9.736162] (-) TimerEvent: {}
+[9.749709] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces'...\n"}
+[9.749885] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/__init__.py'...\n"}
+[9.749945] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg'...\n"}
+[9.749997] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/__init__.py'...\n"}
+[9.750046] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num.py'...\n"}
+[9.750093] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv'...\n"}
+[9.750139] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/__init__.py'...\n"}
+[9.750184] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_hypotenuse.py'...\n"}
+[9.756049] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[9.756508] (tutorial_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.756849] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[9.757140] (tutorial_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.757391] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so\n'}
+[9.757462] (tutorial_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[9.757558] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[9.757854] (tutorial_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""\n'}
+[9.757926] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/rust_packages/tutorial_interfaces\n'}
+[9.758217] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust\n'}
+[9.758668] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/build.rs\n'}
+[9.758929] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/Cargo.toml\n'}
+[9.759965] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src\n'}
+[9.760189] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/srv.rs\n'}
+[9.760395] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/msg.rs\n'}
+[9.760561] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/srv\n'}
+[9.761111] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/srv/rmw.rs\n'}
+[9.761245] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/lib.rs\n'}
+[9.761529] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/msg\n'}
+[9.761904] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/rust/src/msg/rmw.rs\n'}
+[9.762587] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl\n'}
+[9.762813] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/Hypotenuse.idl\n'}
+[9.762868] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg\n'}
+[9.762919] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/Hypotenuse.srv\n'}
+[9.762991] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[9.763208] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[9.763295] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[9.763447] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[9.763666] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[9.763791] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[9.763929] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[9.764066] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[9.764324] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[9.764442] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[9.764533] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[9.764609] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[9.764888] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[9.765108] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.765393] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.765533] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.765645] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[9.766232] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.767192] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.767600] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.767851] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.768123] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[9.768319] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.768501] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.768699] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.768785] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[9.768903] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.769068] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake\n'}
+[9.769217] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.769336] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[9.769553] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.769711] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.769933] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.770195] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.770378] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.771220] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.771944] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[9.772298] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[9.772421] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[9.772696] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alejandra/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[9.775108] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[9.818183] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[9.819311] (-) EventReactorShutdown: {}

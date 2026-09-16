@@ -1,0 +1,2 @@
+[console_scripts]
+turtle_mode_controller = turtlesim_control_pkg.turtle_mode_controller:main

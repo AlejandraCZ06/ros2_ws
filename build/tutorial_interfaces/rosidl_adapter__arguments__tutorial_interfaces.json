@@ -1,0 +1,8 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/home/alejandra/ros2_ws/src/tutorial_interfaces:msg/Num.msg",
+    "/home/alejandra/ros2_ws/src/tutorial_interfaces:srv/Hypotenuse.srv",
+    "/home/alejandra/ros2_ws/src/tutorial_interfaces:action/Fibonacci.action"
+  ]
+}
