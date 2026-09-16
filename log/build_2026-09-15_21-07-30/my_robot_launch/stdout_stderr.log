@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing my_robot_launch.egg-info/PKG-INFO
+writing dependency_links to my_robot_launch.egg-info/dependency_links.txt
+writing requirements to my_robot_launch.egg-info/requires.txt
+writing top-level names to my_robot_launch.egg-info/top_level.txt
+reading manifest file 'my_robot_launch.egg-info/SOURCES.txt'
+writing manifest file 'my_robot_launch.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/alejandra/ros2_ws/install/my_robot_launch/lib/python3.12/site-packages/my-robot-launch.egg-link (link to .)
+
+Installed /home/alejandra/ros2_ws/build/my_robot_launch
+running symlink_data
+symbolically linking /home/alejandra/ros2_ws/build/my_robot_launch/resource/my_robot_launch -> /home/alejandra/ros2_ws/install/my_robot_launch/share/ament_index/resource_index/packages
+symbolically linking /home/alejandra/ros2_ws/build/my_robot_launch/package.xml -> /home/alejandra/ros2_ws/install/my_robot_launch/share/my_robot_launch
+symbolically linking /home/alejandra/ros2_ws/build/my_robot_launch/launch/subs_events.launch.py -> /home/alejandra/ros2_ws/install/my_robot_launch/share/my_robot_launch/launch
+symbolically linking /home/alejandra/ros2_ws/build/my_robot_launch/launch/turtle_mimic.launch.py -> /home/alejandra/ros2_ws/install/my_robot_launch/share/my_robot_launch/launch
+symbolically linking /home/alejandra/ros2_ws/build/my_robot_launch/launch/main.launch.py -> /home/alejandra/ros2_ws/install/my_robot_launch/share/my_robot_launch/launch

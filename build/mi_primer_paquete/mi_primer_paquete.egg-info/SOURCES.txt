@@ -10,7 +10,11 @@ setup.py
 ../../build/mi_primer_paquete/mi_primer_paquete.egg-info/zip-safe
 mi_primer_paquete/__init__.py
 mi_primer_paquete/mi_nodo.py
+mi_primer_paquete.egg-info/PKG-INFO
+mi_primer_paquete.egg-info/SOURCES.txt
+mi_primer_paquete.egg-info/dependency_links.txt
+mi_primer_paquete.egg-info/entry_points.txt
+mi_primer_paquete.egg-info/requires.txt
+mi_primer_paquete.egg-info/top_level.txt
+mi_primer_paquete.egg-info/zip-safe
 resource/mi_primer_paquete
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

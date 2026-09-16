@@ -1,0 +1,18 @@
+[1.790s] Invoking command in '/home/alejandra/ros2_ws/build/mi_primer_paquete': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alejandra/ros2_ws/build/mi_primer_paquete/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandra/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alejandra/ros2_ws/build/mi_primer_paquete/build --no-deps symlink_data --force
+[2.127s] running develop
+[2.308s] running egg_info
+[2.322s] writing mi_primer_paquete.egg-info/PKG-INFO
+[2.322s] writing dependency_links to mi_primer_paquete.egg-info/dependency_links.txt
+[2.323s] writing entry points to mi_primer_paquete.egg-info/entry_points.txt
+[2.323s] writing requirements to mi_primer_paquete.egg-info/requires.txt
+[2.323s] writing top-level names to mi_primer_paquete.egg-info/top_level.txt
+[2.365s] reading manifest file 'mi_primer_paquete.egg-info/SOURCES.txt'
+[2.366s] writing manifest file 'mi_primer_paquete.egg-info/SOURCES.txt'
+[2.383s] running build_ext
+[2.383s] Creating /home/alejandra/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi-primer-paquete.egg-link (link to .)
+[2.384s] Installing nodo_control script to /home/alejandra/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+[2.384s] 
+[2.384s] Installed /home/alejandra/ros2_ws/build/mi_primer_paquete
+[2.385s] running symlink_data
+[2.385s] symbolically linking /home/alejandra/ros2_ws/build/mi_primer_paquete/resource/mi_primer_paquete -> /home/alejandra/ros2_ws/install/mi_primer_paquete/share/ament_index/resource_index/packages
+[2.385s] symbolically linking /home/alejandra/ros2_ws/build/mi_primer_paquete/package.xml -> /home/alejandra/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete

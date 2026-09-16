@@ -1,0 +1,47 @@
+[0.032s] Invoking command in '/home/alejandra/ros2_ws/build/dif_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandra/ros2_ws/install/turtlesim_control:/home/alejandra/ros2_ws/install/py_srvcli:/home/alejandra/ros2_ws/install/py_action:/home/alejandra/ros2_ws/install/turtlesim_control_pkg:/home/alejandra/ros2_ws/install/my_robot_launch:/home/alejandra/ros2_ws/install/mi_primer_paquete:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/alejandra/ros2_ws/src/dif_bot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alejandra/ros2_ws/install/dif_bot_description
+[0.470s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.470s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.470s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.472s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.479s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.490s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.503s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.566s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.567s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.979s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.251s] -- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+[1.251s] -- Found robot_state_publisher: 3.3.4 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[1.484s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.587s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.588s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.588s] -- Added test 'lint_cmake' to check CMake code style
+[1.588s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.588s] -- Added test 'xmllint' to check XML markup files
+[1.590s] -- Configuring done (1.5s)
+[1.596s] -- Generating done (0.0s)
+[1.599s] -- Build files have been written to: /home/alejandra/ros2_ws/build/dif_bot_description
+[1.608s] Invoked command in '/home/alejandra/ros2_ws/build/dif_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandra/ros2_ws/install/turtlesim_control:/home/alejandra/ros2_ws/install/py_srvcli:/home/alejandra/ros2_ws/install/py_action:/home/alejandra/ros2_ws/install/turtlesim_control_pkg:/home/alejandra/ros2_ws/install/my_robot_launch:/home/alejandra/ros2_ws/install/mi_primer_paquete:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/alejandra/ros2_ws/src/dif_bot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alejandra/ros2_ws/install/dif_bot_description
+[1.611s] Invoking command in '/home/alejandra/ros2_ws/build/dif_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandra/ros2_ws/install/turtlesim_control:/home/alejandra/ros2_ws/install/py_srvcli:/home/alejandra/ros2_ws/install/py_action:/home/alejandra/ros2_ws/install/turtlesim_control_pkg:/home/alejandra/ros2_ws/install/my_robot_launch:/home/alejandra/ros2_ws/install/mi_primer_paquete:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alejandra/ros2_ws/build/dif_bot_description -- -j12 -l12
+[1.652s] Invoked command in '/home/alejandra/ros2_ws/build/dif_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandra/ros2_ws/install/turtlesim_control:/home/alejandra/ros2_ws/install/py_srvcli:/home/alejandra/ros2_ws/install/py_action:/home/alejandra/ros2_ws/install/turtlesim_control_pkg:/home/alejandra/ros2_ws/install/my_robot_launch:/home/alejandra/ros2_ws/install/mi_primer_paquete:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alejandra/ros2_ws/build/dif_bot_description -- -j12 -l12
+[1.662s] Invoking command in '/home/alejandra/ros2_ws/build/dif_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandra/ros2_ws/install/turtlesim_control:/home/alejandra/ros2_ws/install/py_srvcli:/home/alejandra/ros2_ws/install/py_action:/home/alejandra/ros2_ws/install/turtlesim_control_pkg:/home/alejandra/ros2_ws/install/my_robot_launch:/home/alejandra/ros2_ws/install/mi_primer_paquete:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alejandra/ros2_ws/build/dif_bot_description
+[1.671s] -- Install configuration: ""
+[1.672s] -- Execute custom install script
+[1.672s] -- Symlinking: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/launch/display.launch.py
+[1.681s] -- Symlinking: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/urdf/dif_bot.urdf.xacro
+[1.689s] -- Symlinking: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/urdf/dif_bot_properties.xacro
+[1.697s] -- Symlinking: /home/alejandra/ros2_ws/install/dif_bot_description/share/ament_index/resource_index/package_run_dependencies/dif_bot_description
+[1.706s] -- Symlinking: /home/alejandra/ros2_ws/install/dif_bot_description/share/ament_index/resource_index/parent_prefix_path/dif_bot_description
+[1.717s] -- Symlinking: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/environment/ament_prefix_path.sh
+[1.728s] -- Symlinking: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/environment/ament_prefix_path.dsv
+[1.739s] -- Symlinking: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/environment/path.sh
+[1.748s] -- Symlinking: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/environment/path.dsv
+[1.759s] -- Symlinking: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/local_setup.bash
+[1.772s] -- Symlinking: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/local_setup.sh
+[1.785s] -- Symlinking: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/local_setup.zsh
+[1.796s] -- Symlinking: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/local_setup.dsv
+[1.805s] -- Symlinking: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/package.dsv
+[1.814s] -- Symlinking: /home/alejandra/ros2_ws/install/dif_bot_description/share/ament_index/resource_index/packages/dif_bot_description
+[1.822s] -- Symlinking: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/cmake/dif_bot_descriptionConfig.cmake
+[1.832s] -- Symlinking: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/cmake/dif_bot_descriptionConfig-version.cmake
+[1.841s] -- Symlinking: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/package.xml
+[1.851s] Invoked command in '/home/alejandra/ros2_ws/build/dif_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandra/ros2_ws/install/turtlesim_control:/home/alejandra/ros2_ws/install/py_srvcli:/home/alejandra/ros2_ws/install/py_action:/home/alejandra/ros2_ws/install/turtlesim_control_pkg:/home/alejandra/ros2_ws/install/my_robot_launch:/home/alejandra/ros2_ws/install/mi_primer_paquete:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alejandra/ros2_ws/build/dif_bot_description

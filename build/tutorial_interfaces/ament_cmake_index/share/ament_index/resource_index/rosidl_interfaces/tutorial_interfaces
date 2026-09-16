@@ -1,6 +1,0 @@
-action/Fibonacci.action
-action/Fibonacci.idl
-msg/Num.idl
-msg/Num.msg
-srv/Hypotenuse.idl
-srv/Hypotenuse.srv
