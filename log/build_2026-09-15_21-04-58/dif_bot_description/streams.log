@@ -1,0 +1,57 @@
+[0.044s] Invoking command in '/home/alejandra/ros2_ws/build/dif_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/alejandra/ros2_ws/src/dif_bot_description -DCMAKE_INSTALL_PREFIX=/home/alejandra/ros2_ws/install/dif_bot_description
+[0.597s] -- The C compiler identification is GNU 13.3.0
+[1.637s] -- The CXX compiler identification is GNU 13.3.0
+[2.658s] -- Detecting C compiler ABI info
+[3.076s] -- Detecting C compiler ABI info - done
+[3.085s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.086s] -- Detecting C compile features
+[3.087s] -- Detecting C compile features - done
+[3.227s] -- Detecting CXX compiler ABI info
+[3.581s] -- Detecting CXX compiler ABI info - done
+[3.590s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.591s] -- Detecting CXX compile features
+[3.591s] -- Detecting CXX compile features - done
+[3.628s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.842s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.029s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[4.360s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.386s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.418s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.451s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.607s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.620s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.800s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.187s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.487s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.817s] -- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+[5.825s] -- Found robot_state_publisher: 3.3.4 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[6.408s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.595s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.595s] -- Configured 'flake8' exclude dirs and/or files: 
+[6.599s] -- Added test 'lint_cmake' to check CMake code style
+[6.602s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.606s] -- Added test 'xmllint' to check XML markup files
+[6.614s] -- Configuring done (6.5s)
+[6.633s] -- Generating done (0.0s)
+[6.643s] -- Build files have been written to: /home/alejandra/ros2_ws/build/dif_bot_description
+[6.669s] Invoked command in '/home/alejandra/ros2_ws/build/dif_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/alejandra/ros2_ws/src/dif_bot_description -DCMAKE_INSTALL_PREFIX=/home/alejandra/ros2_ws/install/dif_bot_description
+[6.672s] Invoking command in '/home/alejandra/ros2_ws/build/dif_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alejandra/ros2_ws/build/dif_bot_description -- -j12 -l12
+[6.717s] Invoked command in '/home/alejandra/ros2_ws/build/dif_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/alejandra/ros2_ws/build/dif_bot_description -- -j12 -l12
+[6.719s] Invoking command in '/home/alejandra/ros2_ws/build/dif_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alejandra/ros2_ws/build/dif_bot_description
+[6.726s] -- Install configuration: ""
+[6.727s] -- Installing: /home/alejandra/ros2_ws/install/dif_bot_description/share/ament_index/resource_index/package_run_dependencies/dif_bot_description
+[6.728s] -- Installing: /home/alejandra/ros2_ws/install/dif_bot_description/share/ament_index/resource_index/parent_prefix_path/dif_bot_description
+[6.729s] -- Installing: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/environment/ament_prefix_path.sh
+[6.729s] -- Installing: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/environment/ament_prefix_path.dsv
+[6.730s] -- Installing: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/environment/path.sh
+[6.731s] -- Installing: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/environment/path.dsv
+[6.731s] -- Installing: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/local_setup.bash
+[6.731s] -- Installing: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/local_setup.sh
+[6.732s] -- Installing: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/local_setup.zsh
+[6.732s] -- Installing: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/local_setup.dsv
+[6.732s] -- Installing: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/package.dsv
+[6.733s] -- Installing: /home/alejandra/ros2_ws/install/dif_bot_description/share/ament_index/resource_index/packages/dif_bot_description
+[6.733s] -- Installing: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/cmake/dif_bot_descriptionConfig.cmake
+[6.734s] -- Installing: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/cmake/dif_bot_descriptionConfig-version.cmake
+[6.734s] -- Installing: /home/alejandra/ros2_ws/install/dif_bot_description/share/dif_bot_description/package.xml
+[6.736s] Invoked command in '/home/alejandra/ros2_ws/build/dif_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/alejandra/ros2_ws/build/dif_bot_description

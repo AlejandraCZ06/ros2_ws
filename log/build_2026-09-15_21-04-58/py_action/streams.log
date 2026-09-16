@@ -1,0 +1,21 @@
+[1.822s] Invoking command in '/home/alejandra/ros2_ws/src/py_action': AMENT_PREFIX_PATH=/home/alejandra/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alejandra/ros2_ws/install/tutorial_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/alejandra/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alejandra/ros2_ws/build/py_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandra/ros2_ws/install/py_action/lib/python3.12/site-packages:/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_action build --build-base /home/alejandra/ros2_ws/build/py_action/build install --record /home/alejandra/ros2_ws/build/py_action/install.log --install-scripts $base/lib/py_action --single-version-externally-managed install_data
+[2.102s] running egg_info
+[2.122s] writing ../../build/py_action/py_action.egg-info/PKG-INFO
+[2.123s] writing dependency_links to ../../build/py_action/py_action.egg-info/dependency_links.txt
+[2.123s] writing entry points to ../../build/py_action/py_action.egg-info/entry_points.txt
+[2.123s] writing requirements to ../../build/py_action/py_action.egg-info/requires.txt
+[2.124s] writing top-level names to ../../build/py_action/py_action.egg-info/top_level.txt
+[2.165s] reading manifest file '../../build/py_action/py_action.egg-info/SOURCES.txt'
+[2.165s] writing manifest file '../../build/py_action/py_action.egg-info/SOURCES.txt'
+[2.166s] running build
+[2.166s] running build_py
+[2.166s] running install
+[2.175s] running install_lib
+[2.195s] running install_data
+[2.195s] running install_egg_info
+[2.216s] removing '/home/alejandra/ros2_ws/install/py_action/lib/python3.12/site-packages/py_action-0.0.0-py3.12.egg-info' (and everything under it)
+[2.216s] Copying ../../build/py_action/py_action.egg-info to /home/alejandra/ros2_ws/install/py_action/lib/python3.12/site-packages/py_action-0.0.0-py3.12.egg-info
+[2.217s] running install_scripts
+[2.356s] Installing server script to /home/alejandra/ros2_ws/install/py_action/lib/py_action
+[2.358s] writing list of installed files to '/home/alejandra/ros2_ws/build/py_action/install.log'
+[2.403s] Invoked command in '/home/alejandra/ros2_ws/src/py_action' returned '0': AMENT_PREFIX_PATH=/home/alejandra/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alejandra/ros2_ws/install/tutorial_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/alejandra/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alejandra/ros2_ws/build/py_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandra/ros2_ws/install/py_action/lib/python3.12/site-packages:/home/alejandra/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_action build --build-base /home/alejandra/ros2_ws/build/py_action/build install --record /home/alejandra/ros2_ws/build/py_action/install.log --install-scripts $base/lib/py_action --single-version-externally-managed install_data
