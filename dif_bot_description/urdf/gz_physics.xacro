@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- RUEDA IZQUIERDA: Alta tracción longitudinal, baja lateral para girar -->
+  <gazebo reference="drivewhl_l_link">
+    <collision>
+      <surface>
+        <friction>
+          <ode>
+            <mu>1.2</mu>
+            <mu2>0.2</mu2>
+            <slip1>0.0</slip1>
+            <slip2>0.02</slip2>
+          </ode>
+        </friction>
+        <contact>
+          <ode>
+            <kp>1000000.0</kp>
+            <kd>10.0</kd>
+            <min_depth>0.001</min_depth>
+          </ode>
+        </contact>
+      </surface>
+    </collision>
+  </gazebo>
+
+  <!-- RUEDA DERECHA -->
+  <gazebo reference="drivewhl_r_link">
+    <collision>
+      <surface>
+        <friction>
+          <ode>
+            <mu>1.2</mu>
+            <mu2>0.2</mu2>
+            <slip1>0.0</slip1>
+            <slip2>0.02</slip2>
+          </ode>
+        </friction>
+        <contact>
+          <ode>
+            <kp>1000000.0</kp>
+            <kd>10.0</kd>
+            <min_depth>0.001</min_depth>
+          </ode>
+        </contact>
+      </surface>
+    </collision>
+  </gazebo>
+
+  <!-- RUEDA CASTER: Fricción casi nula para no resistir los giros -->
+  <gazebo reference="front_caster">
+    <collision>
+      <surface>
+        <friction>
+          <ode>
+            <mu>0.01</mu>
+            <mu2>0.01</mu2>
+            <slip1>0.1</slip1>
+            <slip2>0.1</slip2>
+          </ode>
+        </friction>
+        <contact>
+          <ode>
+            <kp>100000.0</kp>
+            <kd>1.0</kd>
+          </ode>
+        </contact>
+      </surface>
+    </collision>
+  </gazebo>
+
+</robot>

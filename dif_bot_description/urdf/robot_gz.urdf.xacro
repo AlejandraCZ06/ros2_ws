@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<robot name="dif_bot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- 1. Geometría, Colisiones e Inercias Base -->
+  <xacro:include filename="robot.urdf.xacro"/>
+
+  <!-- 2. Sensores (Geometría y TF) -->
+  <xacro:include filename="sensors.xacro"/>
+
+  <!-- 3. Plugins de Gazebo: Física (Fricción) -->
+  <xacro:include filename="gz_physics.xacro"/>
+
+  <!-- 4. Plugins de Gazebo: Control (DiffDrive) -->
+  <xacro:include filename="gz_control.xacro"/>
+
+  <!-- 5. Plugins de Gazebo: Sensores (Sistemas GZ) -->
+  <gazebo>
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+    <plugin filename="gz-sim-imu-system" name="gz::sim::systems::Imu"/>
+    <plugin filename="gz-sim-joint-state-publisher-system" name="gz::sim::systems::JointStatePublisher">
+      <topic>/joint_states</topic>
+    </plugin>
+  </gazebo>
+
+  <!-- Configuración específica del sensor IMU -->
+  <gazebo reference="imu_link">
+    <sensor name="imu_sensor" type="imu">
+      <always_on>true</always_on>
+      <update_rate>50</update_rate>
+      <topic>imu</topic>
+    </sensor>
+  </gazebo>
+
+  <!-- Configuración específica del Lidar -->
+  <gazebo reference="lidar_link">
+    <sensor name="lidar_sensor" type="gpu_lidar">
+      <topic>scan</topic>
+      <always_on>true</always_on>
+      <update_rate>20</update_rate>
+      <visualize>true</visualize>
+      <lidar>
+        <scan>
+          <horizontal>
+            <samples>360</samples>
+            <resolution>1.0</resolution>
+            <min_angle>-3.14159</min_angle>
+            <max_angle>3.14159</max_angle>
+          </horizontal>
+        </scan>
+        <range>
+          <min>0.1</min>
+          <max>10.0</max>
+          <resolution>0.01</resolution>
+        </range>
+      </lidar>
+    </sensor>
+  </gazebo>
+
+  <!-- Configuración específica de la Cámara -->
+  <gazebo reference="camera_depth_frame">
+    <sensor name="depth_camera" type="depth_camera">
+      <topic>camera/depth/image_raw</topic>
+      <always_on>true</always_on>
+      <update_rate>30</update_rate>
+      <visualize>true</visualize>
+      <camera>
+        <horizontal_fov>1.047</horizontal_fov>
+        <image>
+          <width>640</width>
+          <height>480</height>
+          <format>R_FLOAT32</format>
+        </image>
+        <clip>
+          <near>0.05</near>
+          <far>8.0</far>
+        </clip>
+      </camera>
+    </sensor>
+  </gazebo>
+
+</robot>
